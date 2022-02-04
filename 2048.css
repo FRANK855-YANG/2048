@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-size: 60px;
+}
+header #newgamebutton {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    margin:20px;
+    font-size: 30px;
+    border-radius: 5px;
+    outline:none;
+    border:2px solid orange;
+}
+header #newgamebutton:hover {
+    background-color: rgb(236, 215, 22);
+    border:2px solid rgb(236, 215, 22);
+}
+header p {
+    margin:20px;
+    font-size: 20px;
+}
+
+
+
+section {
+    position: relative;
+    width: 500px;
+    height:500px;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bbada0;
+    border-radius: 10px;
+}
+section .cell {
+    width: 100px;
+    height:100px;
+    text-align: center;
+    margin:10px;
+    background-color: #ccc0b3;
+    border-radius: 10px;
+}
+section .numberCell {
+    position:absolute;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
